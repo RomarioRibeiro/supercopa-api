@@ -32,7 +32,7 @@ import com.suercopa.service.ExceptionCpf;
 
 @RestController
 @RequestMapping("/colaboradores")
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "http://supercopa-app.vercel.app/")
 public class ColaboradorResource {
 	
 	@Autowired
